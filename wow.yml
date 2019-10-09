@@ -73,7 +73,7 @@ Proxy:
 Proxy Group:
   - name: PROXY
     proxies:
-      - V2rayN
+      - v2rayN
     type: select
 
 Rule:
