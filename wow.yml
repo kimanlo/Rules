@@ -65,10 +65,10 @@ cfw-bypass:
 cfw-latency-timeout: 5000
 
 Proxy:
-  - name: V2rayN
-  type: socks5
-  server: 127.0.0.1
-  port: "10808"
+  - name: v2rayN
+    type: socks5
+    server: 127.0.0.1
+    port: "10808"
 
 Proxy Group:
   - name: PROXY
