@@ -78,9 +78,9 @@ Proxy Group:
 
 Rule:
   # WOW
-  - DOMAIN-SUFFIX,worldofwarcraft.com,Proxy
-  - DOMAIN-SUFFIX,blizzard.com,Proxy
-  - DOMAIN-SUFFIX,battle.net,Proxy
+  - DOMAIN-SUFFIX,worldofwarcraft.com,PROXY
+  - DOMAIN-SUFFIX,blizzard.com,PROXY
+  - DOMAIN-SUFFIX,battle.net,PROXY
   
   # LAN
   - IP-CIDR,10.0.0.0/8,DIRECT
@@ -90,4 +90,4 @@ Rule:
   - IP-CIDR,192.168.0.0/16,DIRECT
   
   - GEOIP,CN,DIRECT
-  - MATCH,Proxy
+  - MATCH,PROXY
