@@ -1,5 +1,5 @@
 Rule:
-  # 魔兽相关
+  # WOW
   - DOMAIN-SUFFIX,worldofwarcraft.com,Proxy
   - DOMAIN-SUFFIX,blizzard.com,Proxy
   - DOMAIN-SUFFIX,battle.net,Proxy
@@ -13,6 +13,5 @@ Rule:
   - IP-CIDR,172.93.221.1/24,DIRECT
   - IP-CIDR,198.46.223.1/24,DIRECT
   
-  # 非中国 IP 代理
   - GEOIP,CN,DIRECT
-  - MATCH,PROXY
+  - MATCH,Proxy
